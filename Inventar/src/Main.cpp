@@ -5,11 +5,13 @@
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
-
+#include "Item.h"
 #include <iostream>
+
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	Item schwert("Schwert", 10, 5);
+	cout << schwert.toString();
 	return 0;
 }
